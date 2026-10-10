@@ -17,7 +17,7 @@ A backend service that ranks fictional candidates against job openings based on 
 CREATE DATABASE recruiter_bot;
 ```
 
-2. Set up the database by executing `database_setup.sql` in MySQL Workbench. This script creates the required tables and inserts the fictional candidate, job, and skill data.
+2. Set up the database by executing `setup.sql` in MySQL Workbench. This script creates the required tables and inserts the fictional candidate, job, and skill data.
 
 3. Configure database credentials in the environment. In Windows PowerShell:
 
