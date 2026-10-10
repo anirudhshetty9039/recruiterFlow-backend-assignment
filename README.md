@@ -17,7 +17,7 @@ A backend service that ranks fictional candidates against job openings based on 
 CREATE DATABASE recruiter_bot;
 ```
 
-2. Create and populate the `candidates`, `jobs`, `candidate_skills`, and `job_required_skills` tables with the assignment's seed data.
+2. Set up the database by executing `setup.sql` in MySQL Workbench. This script creates the required tables and inserts the fictional candidate, job, and skill data.
 
 3. Configure database credentials in the environment. In Windows PowerShell:
 
@@ -54,8 +54,6 @@ The schema separates candidates, jobs, candidate skills, and required job skills
 
 `sql_detective.sql` contains the five SQL answers, each preceded by its question number. It covers open jobs, Final-stage applicants, people associated with multiple jobs, recruiter conversion rates, and successful placements by department.
 
-The SQL Detective dataset uses the separate `recruiterflow_assignment` database. Since it has no applications table, Question 3 uses interview records as a proxy for applications.
-
 ## AI Assistance Disclosure
 
-ChatGPT was used to clarify requirements, discuss schema and matching algorithm design, troubleshoot Spring Boot and MySQL configuration, develop and review SQL queries, and prepare documentation. I reviewed the explanations to understand the implementation and its trade-offs and am responsible for explaining the submitted solution.
+ChatGPT was used to clarify requirements, discuss schema and matching algorithm design, troubleshoot Spring Boot and MySQL configuration, develop and review SQL queries, and prepare documentation.
