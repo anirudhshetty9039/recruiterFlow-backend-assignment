@@ -54,8 +54,6 @@ The schema separates candidates, jobs, candidate skills, and required job skills
 
 `sql_detective.sql` contains the five SQL answers, each preceded by its question number. It covers open jobs, Final-stage applicants, people associated with multiple jobs, recruiter conversion rates, and successful placements by department.
 
-The SQL Detective dataset uses the separate `recruiterflow_assignment` database. Since it has no applications table, Question 3 uses interview records as a proxy for applications.
-
 ## AI Assistance Disclosure
 
-ChatGPT was used to clarify requirements, discuss schema and matching algorithm design, troubleshoot Spring Boot and MySQL configuration, develop and review SQL queries, and prepare documentation. I reviewed the explanations to understand the implementation and its trade-offs and am responsible for explaining the submitted solution.
+ChatGPT was used to clarify requirements, discuss schema and matching algorithm design, troubleshoot Spring Boot and MySQL configuration, develop and review SQL queries, and prepare documentation.
